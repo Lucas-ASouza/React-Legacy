@@ -1,5 +1,14 @@
 import React from "react";
 
-export default function() {
-    return <h1>First Component</h1>
+
+const First = props => {
+    <h1> First Component!</h1>
+}
+
+const Second = props => {
+    <h1>Second Component!</h1>
+}
+
+export default props => {
+    return { First, Second}
 }
