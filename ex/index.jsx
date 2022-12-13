@@ -1,8 +1,13 @@
 import React from "react";
 import ReactDOM from "react";
-import Component from './Component.jsx'
+import Component from './Component'
 
-
-ReactDOM.render(<Component value="Using props" />, document.getElementById('app'))
+ReactDOM.render(
+    <div>
+        <Component 
+        name="Lucas" 
+        surname="Alves"></Component>
+    </div>
+   , document.getElementById('app'))
 
 

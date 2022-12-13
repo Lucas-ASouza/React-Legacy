@@ -1,14 +1,12 @@
 import React from "react";
 
-
-const First = props => {
-    <h1> First Component!</h1>
-}
-
-const Second = props => {
-    <h1>Second Component!</h1>
-}
-
 export default props => {
-    return { First, Second}
+    return <div>
+        <h1>Family</h1>
+        {React.Children.map(
+            props.children,
+            child => React.
+            cloneElement(child, 
+            {...props}))}
+    </div>
 }
