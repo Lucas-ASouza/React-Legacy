@@ -4,9 +4,7 @@ import Component from './Component'
 
 ReactDOM.render(
     <div>
-        <Component 
-        name="Lucas" 
-        surname="Alves"></Component>
+        <Component label="Counter" initialValue={10}></Component>
     </div>
    , document.getElementById('app'))
 
