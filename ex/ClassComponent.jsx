@@ -22,4 +22,4 @@ export default class ClassComponent extends Components {
             </div>
         )
     }
-}
+} 
